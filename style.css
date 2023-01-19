@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+
+* { /* RESET */
+    vertical-align: baseline;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-style: inherit;
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 0 none;
+    outline: 0;
+    padding: 0;
+    margin: 0;
+    color: black;
+}
+
+:root {
+    
+}
+
+head {
+    display: none;
+}
+
+body {
+    display: block;
+}
+
+#box {
+    display: none;
+    position: absolute;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+   /* animation: move 0.5s ease-out infinite; */
+}
+/*
+@keyframes move {
+    0%{top: 0px; left: 0px;}
+    100%{top: 50%; left: 50%;}
+}
+*/
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap;
+    width: 100%;
+    height: 700px;
+}
+
+.textarea {
+    display: block;
+    padding: 10px;
+    margin: 50px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px darkgrey;
+    font-size: 50px;
+    font-weight: 400;
+    text-align: center;
+    width: 500px;
+    height: 100px;
+    min-width: 500px;
+    min-height: 100px;
+    max-width: 500px;
+    max-height: 600px;
+    background: url("get them big ass fucking ears out of the caption god damn.jpg") 0px 100px/500px 500px no-repeat;
+    transition: height 0.2s ease-in;
+    resize: none;
+    -khtml-user-select: none;
+    -webkit-touch-callout:none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.textarea:active {
+    height: 600px;
+}
